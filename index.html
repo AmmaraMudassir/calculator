@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class ="main">
+        <div>
+            <input id= "userinput" class = "input" type="text">
+        </div>
+        <div>
+            <button class= "clear" onmouseover="this.style.backgroundColor = 'blue'"onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="clearResult() ; this.style.backgroundColor = '#ABEBC6'">C</button>
+        </div>
+        <div>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('7')">7</button>
+            <button   class ="btna" onmouseover="this.style.backgroundColor = 'blue'"onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('8')">8</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('9')">9</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('*')">x</button>
+        
+        </div>
+        <div>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('4')">4</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('5')">5</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('6')">6</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('-')" style="font-weight: bold;">-</button>
+        
+        </div>
+        <div>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('1')">1</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('2')">2</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('3')">3</button>
+            <button  class ="btna" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="input('+')">+</button>
+        
+        </div>
+        <div>
+            <button class="lastbtn" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'"onclick="input('0')">0</button>
+            <button  class="lastbtn" onmouseover="this.style.backgroundColor = 'blue'" onmouseout="this.style.backgroundColor =' #F2F3F4'" onclick="finalResult() ;  this.style.backgroundColor = '#ABEBC6'">=</button>
+        
+        </div>
+    </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
